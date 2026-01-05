@@ -13,7 +13,7 @@ import os
 app = Flask(__name__)
 app.secret_key = "medical_project_secret_key_2025"
 
-GEMINI_API_KEY = "AIzaSyCden6kWNjrV00-XH8Kay0bi9OsODcjdCo"
+GEMINI_API_KEY = "Your Api key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 DB_CONFIG = {
